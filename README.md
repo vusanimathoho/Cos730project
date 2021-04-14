@@ -1,4 +1,2 @@
 # Cos730project
-Emergency Road Service Help System is a  software system for drivers in South Africa.
-This system will ease access to road services such as mechanic and petrol delivery on the road. 
-The customer and the users for the system  are the road users who will be able to to request service and other users of the system will be the petrol attendant and the mechanic that will the services providers.
+Emergency road service help is a web based system. The aim of the system is to provide road assistance for customers who are in need of fuel or mechanic service. The petrol attendant will offer fuel delivery service, while the mechanic will be offering tyre change and vehicle repairs. The system will provide customers with the ability to search for the nearest service center and request for assistance. 
