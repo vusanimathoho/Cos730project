@@ -1,0 +1,159 @@
+.login{
+    padding-top: 60px;
+
+    width: 100%;
+    @include respond(phone){
+        background: #fff;
+        padding: 0px;
+    };
+}
+
+.gallery {
+    background-color: #fff;
+    padding: 20px;
+
+    .gallery-img {
+        width: 100%;
+       
+        background: #cccccc;
+        img{
+            height: 100%;
+        }
+    }
+    .delete {
+        color: #e94e4e;
+        border: none;
+        &:hover {
+            cursor: pointer;
+            background: transparent;
+            color: #14b9ae;
+        }
+    }
+    .edit {
+        color: #3cdcff;
+        &:hover {
+            cursor: pointer;
+            color: #14b9ae;
+        }
+    }
+}
+.price {
+
+    .delete {
+        color: #e94e4e;
+        border: none;
+        &:hover {
+            cursor: pointer;
+            background: transparent;
+            color: #14b9ae;
+        }
+    }
+    .edit {
+        color: #3cdcff;
+        &:hover {
+            cursor: pointer;
+            color: #14b9ae;
+        }
+    }
+}
+
+.color{
+      .round{
+        border-radius: 100%;
+    }
+    .delete {
+        color: #e94e4e;
+        font-size: 14px;
+        &:hover {
+            cursor: pointer;
+            color: #14b9ae;
+        }
+    }
+    .edit {
+        color: #3cdcff;
+        &:hover {
+            cursor: pointer;
+            color: #14b9ae;
+        }
+    }
+    .card {
+        background: #ffffff;
+
+        padding: 20px;
+        transition: 500ms ease-in;
+        small {
+            color: #c4c4c4;
+        }
+    }
+}
+
+.home {
+    background: #fff;
+    padding: 40px;
+    max-width: 640px;
+    width: 70%;
+    @include respond(phone){
+        padding:20px;
+        width:100%;
+    }
+
+    .title {
+        padding-top: 10px;
+        h2{
+            padding: 0;
+        }
+
+    }
+    .form {
+        padding-top: 10px;
+        padding-bottom: 20px;
+
+
+    }
+    .submit-form {
+        padding-bottom: 20px;
+    }
+    .other-info {
+        ul {
+            list-style: none;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            li{
+                padding: 15px;
+            }
+        }
+    }
+
+    .btn-success {
+        display: block;
+        padding: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        border-radius: 30px;
+        text-align: center;
+        color: #fff;
+        background-color: #0AE478;
+        box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.25);
+        border: none;
+        -webkit-transition: 250ms ease-in-out;
+        transition: 250ms ease-in-out;
+        &:hover {
+            cursor: pointer;
+            background-color: #FFE600;
+            color: #333;
+            box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}
+
+    @include respond(phone){
+        .table{
+            th,td{
+                font-size: 6px
+            }
+        }
+    };

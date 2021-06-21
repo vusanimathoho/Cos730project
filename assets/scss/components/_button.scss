@@ -1,0 +1,36 @@
+.btn{
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    
+    padding-left: 40px;
+    padding-right:40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    border-radius:40px;
+    text-align: center;
+    color: white;
+
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+
+    background: transparent;
+    border: 1px solid $btn-primary;
+    color: $btn-primary;
+    &:hover{
+        border: 1px solid $btn-primary;
+        background-color: $btn-primary;
+        color: #333;
+    }
+
+}
+
+.delete {
+    color: #e94e4e;
+    font-size: 14px;
+    &:hover {
+        cursor: pointer;
+        color: #14b9ae;
+    }
+}

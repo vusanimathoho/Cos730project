@@ -1,0 +1,58 @@
+.media{
+
+
+    .tab {
+
+        height: 60px;
+
+
+    }
+    ul {
+        list-style: none;
+        border-bottom: 1px solid #14b9ae;
+        li {
+            padding: 10px;
+            border-right: 1px solid #14b9ae;
+            &:last-child {
+                border-right: none;
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: #14b9ae;
+                color: #fff;
+            }
+            .active {
+                background-color: #14b9ae;
+                color: #fff;
+            }
+        }
+    }
+
+    .file{ 
+        padding: 10px;
+        opacity: 1;
+        transition: 250ms ease-in;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+    }
+
+    .delete{
+        cursor: pointer;
+        margin-top: 20px;
+        border: none;
+
+    }
+
+
+    .upload {
+        .choose {
+            padding-top: 20px;
+        }
+        img {
+            width: 240px;
+            height: 240px;
+        }
+    }
+}

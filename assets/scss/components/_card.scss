@@ -1,0 +1,23 @@
+.card {
+    background: #ffffff;
+
+    padding: 20px;
+    transition: 500ms ease-in;
+    small {
+        color: #c4c4c4;
+    }
+    .btn {
+        padding: 10px;
+        width: 100%;
+    }
+
+    i {
+        font-size: 24px;
+    }
+    .open {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+

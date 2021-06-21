@@ -1,0 +1,49 @@
+.card {
+    background: #ffffff;
+
+    padding: 20px;
+    transition: 500ms ease-in;
+    small {
+        color: #c4c4c4;
+    }
+
+    i {
+        font-size: 24px;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: #14b9ae;
+        color: #fff;
+    }
+}
+.left {
+    flex-direction: column;
+}
+
+.options{
+    ul{
+     list-style: none;
+    }
+    .btn{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .remove{
+        border: 1px solid #D12222;
+        color: #D12222;
+        &:hover{
+            color: #fff;
+            background-color: #D12222;
+        }
+    }
+
+    .edit{
+        border: 1px solid #1C9CD2;
+        color: #1C9CD2;
+        &:hover{
+            color: #fff;
+            background-color: #1C9CD2;
+        }
+    }
+}

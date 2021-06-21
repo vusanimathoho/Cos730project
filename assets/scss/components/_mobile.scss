@@ -1,0 +1,149 @@
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .mobile {
+        display: block;
+    }
+    [class*="col-"] {
+        grid-column: auto / span 3;
+    }
+
+    .columns {
+        height: inherit;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .col-m-6 {
+        grid-column: auto / span 1;
+    }
+    .container {
+        height: initial;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow-x: hidden;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        @include respond(phone){
+        padding-left: 60px;
+        padding-right: 15px;
+    }
+    }
+
+    .web {
+        display: none;
+    }
+    .text-m-center {
+        text-align: center;
+    }
+    .text-m-left {
+        text-align: left;
+    }
+    .text-m-right {
+        text-align: right;
+    }
+    .center-m {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .right-m {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: flex-start;
+    }
+    .left-m {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: flex-start;
+    }
+    .modal-container {
+        width: 100%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    .mobile {
+        display: block;
+    }
+    [class*="col-"] {
+        grid-column: auto / span 3;
+    }
+    .columns {
+        height: inherit;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+   
+    .col-m-6 {
+        grid-column: auto / span 1;
+    }
+    .container {
+        height: initial;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow-x: hidden;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        @include respond(phone){
+        padding-left: 70px;
+        padding-right: 15px;
+    }
+    }
+    .web {
+        display: none;
+    }
+    .text-m-center {
+        text-align: center;
+    }
+    .text-m-left {
+        text-align: left;
+    }
+    .text-m-right {
+        text-align: right;
+    }
+    .center-m {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .right-m {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: flex-start;
+    }
+    .left-m {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: flex-start;
+    }
+}

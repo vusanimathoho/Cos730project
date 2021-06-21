@@ -1,0 +1,22 @@
+ .profile{
+    padding: 10px;
+    flex-direction: row;
+    .profile-info{
+      flex-direction: column;
+      padding-left: 20px;
+      h3{
+        line-height: 1;
+      }
+      small{
+        color: #C4C4C4;
+      }
+    }
+    .profile-pic{
+    
+      background: grey;
+      border-radius: 100%;
+    }
+    &:hover{
+
+    }
+  }

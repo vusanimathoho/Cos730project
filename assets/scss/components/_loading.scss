@@ -1,0 +1,61 @@
+.csas-load-async {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    overflow:hidden;
+    height:7px;
+}
+
+.csas-load-line {
+    display: block;   
+    height:100%;
+    width: 100vw;
+    position:relative;
+    -webkit-animation: csas-load-spin 4s infinite linear;
+    animation: csas-load-spin 4s infinite linear;
+    transform-style: preserve-3d;
+}
+.csas-load-line > *{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+}
+.csas-load-front{
+    background: #fff;
+    transform: translateZ(50vw);
+}
+.csas-load-back{
+    background: #fff;
+    transform: rotateY(180deg) translateZ(50vw);
+}
+.csas-load-right{
+    background: #fff;
+    transform: rotateY(90deg) translateZ(50vw);
+}
+.csas-load-left{
+    background: $primary-color;
+    transform: rotateY(-90deg) translateZ(50vw);
+}
+@-webkit-keyframes csas-load-spin {
+    from {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(179deg);
+        transform: rotateY(179deg);
+    }
+}
+
+@keyframes csas-load-spin {
+    from {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(179deg);
+        transform: rotateY(179deg);
+    }
+}
